@@ -127,11 +127,6 @@ img {
   margin-left: 50px;
 }
 
-/* .contacts-icon:hover,
-.contacts-icon:focus {
-  color: var(--accent-color);
-} */
-
 .header-contact {
   display: flex;
   align-items: center;
@@ -436,7 +431,8 @@ img {
   cursor: pointer;
 }
 
-.client-link:hover {
+.client-link:hover,
+.client-link:focus {
   border-color: var(--accent-color);
   color: var(--accent-color);
 }
